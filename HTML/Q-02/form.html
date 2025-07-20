@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration Form</title>
+</head>
+<body>
+
+  <h1>Student Registration Form</h1>
+
+  <form>
+
+    <!-- Full Name -->
+    <label>Full Name:</label><br>
+    <input type="text" placeholder="Enter your name" required><br><br>
+
+    <!-- Roll Number -->
+    <label>Roll Number:</label><br>
+    <input type="text" placeholder="Enter your roll number" required><br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="Male" required> Male<br>
+    <input type="radio" name="gender" value="Female"> Female<br>
+    <input type="radio" name="gender" value="Other"> Other<br><br>
+
+    <!-- Course -->
+    <label>Select Course:</label><br>
+    <select required>
+      <option value="">-- Choose a course --</option>
+      <option>BCA</option>
+      <option>MCA</option>
+      <option>B.Tech</option>
+      <option>MBA</option>
+      <option>B.Sc</option>
+      <option>BA</option>
+    </select><br><br>
+
+    <!-- Email -->
+    <label>Email Address:</label><br>
+    <input type="email" placeholder="Enter your email" required><br><br>
+
+    <!-- Mobile -->
+    <label>Mobile Number:</label><br>
+    <input type="text" placeholder="Enter your mobile number" required><br><br>
+
+    <!-- Date of Birth -->
+    <label>Date of Birth:</label><br>
+    <input type="date" required><br><br>
+
+    <!-- Address -->
+    <label>Address:</label><br>
+    <textarea rows="4" cols="40" placeholder="Enter your full address"></textarea><br><br>
+
+    <!-- Password -->
+    <label>Create Password:</label><br>
+    <input type="password" placeholder="Enter a password" required><br><br>
+    <!-- Checkbox -->
+    <input type="checkbox" required> I agree to the Terms and Conditions<br><br>
+
+    <!-- Buttons -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+  </form>
+
+</body>
+</html>
